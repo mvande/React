@@ -1,6 +1,7 @@
 "use client"
-import CountButton from "./CountButton"
-import GitHub from "./GitHub"
+import CountButton from "./CountButton/CountButton"
+import GitHub from "./GitHub/GitHub"
+import SearchBar from "./SearchBar/SearchBar"
 
 export default function Page() {
     return (
@@ -9,6 +10,7 @@ export default function Page() {
         <CountButton num="1"/>
         <CountButton num="2"/>
         <GitHub />
+        <SearchBar />
       </>
     )
   }
